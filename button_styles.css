@@ -1,0 +1,148 @@
+.subs {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  text-align: center;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.2s;
+}
+
+.subs:hover {
+  opacity: 0.8;
+}
+
+.subs:active {
+  opacity: 0.6;
+}
+
+.join {
+  background-color: white;
+  border-color: rgb(68, 68, 232);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(68,68,232);
+  height: 36px;
+  width: 62px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.join:hover {
+  background-color: rgb(68,68,232);
+  color: white;
+}
+
+.join:active {
+  opacity: 0.6;
+}
+
+.tweet {
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border-style: solid;
+  border-width: 0.8px;
+  border-color: rgb(0,157,255);
+  border-radius: 18px;
+  height: 36px;
+  width: 80px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+} 
+
+.tweet:hover {
+  background-color: white;
+  color: rgb(0,157,255);
+  border-style: solid;
+  border-color: rgb(0,157,255);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.req {
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  margin-right: 8px;
+  height: 36px;
+  width: 110px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.cart{
+  background-color: rgb(255,216,20);
+  margin-right: 8px;
+  border-style: none;
+  width: 200px;
+  height: 36px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign {
+  background-color: rgb(46,164,79);
+  color: white;
+  border-style: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.getStarted{
+  color: white;
+  background-color: rgb(121,82,179);
+  margin-right: 5px;
+  border-style: none;
+  margin-top: 10px;
+  height: 30px;
+  width: 105px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dwnld {
+  background-color: white;
+  border-color: rgb(121,82,179);
+  color: rgb(121,82,179);
+  border-width: 1px;
+  height: 30px;
+  width: 105px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.apply {
+  color: white;
+  background-color: rgb(223, 59, 237);
+  margin-top: 10px;
+  margin-right: 8px;
+  border-style: none;
+  cursor: pointer;
+  height: 40px;
+  width: 220px;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.save {
+  color: rgb(223, 59, 237);
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 8px;
+  border-color: rgb(223, 59, 237);
+  border-width: 1.3px;
+  cursor: pointer;
+  height: 32px;
+  width: 80px;
+  border-radius: 100px;
+  font-weight: bold;
+}
