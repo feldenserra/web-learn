@@ -3,16 +3,23 @@
   color: white;
   text-align: center;
   border: none;
-  height: 36px;
-  width: 105px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 10px;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, padding-top 0.5s, padding-bottom 0.5s, padding-left 0.5s, padding-right 0.5s;
+  vertical-align: top;
 }
 
 .subs:hover {
   opacity: 0.8;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .subs:active {
@@ -26,11 +33,14 @@
   border-width: 1px;
   border-radius: 2px;
   color: rgb(68,68,232);
-  height: 36px;
-  width: 62px;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
   cursor: pointer;
   margin-right: 10px;
   transition: background-color 0.5s, color 0.5s;
+  vertical-align: top;
 }
 
 .join:hover {
@@ -49,11 +59,14 @@
   border-width: 0.8px;
   border-color: rgb(0,157,255);
   border-radius: 18px;
-  height: 36px;
-  width: 80px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  vertical-align: top;
 } 
 
 .tweet:hover {
